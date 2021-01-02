@@ -8,7 +8,7 @@ makedocs(;
     sitename="MyPkg.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Shoichiro-Tsutsui.github.io/MyPkg.jl",
+        canonical="https://Shoichiro-Tsutsui/MyPkg.jl",
         assets=String[],
     ),
     pages=[
